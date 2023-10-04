@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body {
+  background: black !important;
+}
+.header {
+  background-color: #1c1c26;
+}
+.hero {
+  padding-bottom: 90px;
+  padding-top: 90px;
+  h1 {
+    color: white;
+    font-fmily: "Manrope", sans-serif;
+  }
+  p {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+  }
+  .card {
+    background-color: #1c1c24;
+    border-radius: 12px;
+    .react {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+      }
+    }
+    span {
+      font-family: "Poppins", sans-serif;
+      color: #92929d;
+      font-size: 12px;
+    }
+    .card-footer {
+      background-color: #292932;
+      border-bottom-left-radius: 12px;
+      border-bottom-right-radius: 12px;
+      span{
+        color: white;
+      font-family: "Poppins", sans-serif;
+
+      }
+    }
+  }
+}
